@@ -22,3 +22,6 @@ Things you may want to cover:
     run npm install or yarn install
     run bundle exec rails s
     navigate to http://localhost:3000
+
+* Known issues
+    no error handling for when a user that does not exist attampts to log on
