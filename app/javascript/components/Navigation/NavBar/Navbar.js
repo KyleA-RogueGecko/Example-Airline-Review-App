@@ -39,6 +39,9 @@ class Navbar extends Component {
                             { !checkLoggedIn ? <Link to={`/login`} className="navbarbtn" >Log on</Link> : null}  
                             { !checkLoggedIn ? <Link to={`/registrations`} className="navbarbtn">Register</Link> : null}
                             { checkLoggedIn ? <Link to={`/`} onClick={() => this.handleLogoutClick()} className="navbarbtn">Log Out</Link> : null}
+                            <div className="user">
+                                { this.props.userEmail != null ? <p>Hello,{this.props.userEmail}</p> : null }
+                            </div>
                         </div>
                     </div>
                 </div>

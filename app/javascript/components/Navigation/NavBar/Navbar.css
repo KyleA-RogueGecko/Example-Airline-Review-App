@@ -41,3 +41,11 @@
     border: none;
     cursor: pointer;
 }
+
+.user{
+    height: 50px;
+    position: absolute; 
+    bottom: 18px; 
+    right: 25px;
+    text-align: right;
+}

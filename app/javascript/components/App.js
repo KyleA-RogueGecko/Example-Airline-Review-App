@@ -77,7 +77,8 @@ class App extends Component {
         <Body>
             <Navbar 
                 handleLogout={this.handleLogout}
-                loggedInStatus={this.state.loggedInStatus}    
+                loggedInStatus={this.state.loggedInStatus}
+                userEmail={this.state.user.email}    
             />
             <Switch>
                 <Route exact path="/" component={Airlines}/>
