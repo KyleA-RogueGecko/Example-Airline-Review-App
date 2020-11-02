@@ -6,7 +6,7 @@ application up and running.
 Things you may want to cover:
 
 * Versioning Info
-    Ruby '2.7.0'
+    Ruby '2.6.1'
     Rails '6.0.3.4'
     React '16.14.0'
     Node '14.13.1'
