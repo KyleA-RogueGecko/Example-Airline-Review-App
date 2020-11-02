@@ -5,20 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
+* Versioning Info
+    Ruby '2.7.0'
+    Rails '6.0.3.4'
+    React '16.14.0'
+    Node '14.13.1'
 
 * Configuration
+    If rails server is set to run on a port other than localhost:3000 the following file will need to be updated 
+    cors.rb - origins variable will need to be updated to correct port
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Running it locally
+    run bundle exec 
+    run rails db:prepare
+    run rails db:seed
+    run npm install or yarn install
+    run bundle exec rails s
+    navigate to http://localhost:3000
