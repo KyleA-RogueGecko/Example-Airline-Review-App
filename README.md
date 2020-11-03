@@ -1,10 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Versioning Info
     Ruby '2.6.1'
     Rails '6.0.3.4'
@@ -24,4 +19,11 @@ Things you may want to cover:
     navigate to http://localhost:3000
 
 * Known issues
-    no error handling for when a user that does not exist attampts to log on
+    no error handling for when a user that does not exist attampts to log on - need to add logic to redirect to the registration component if User does not exist
+
+* Planned work
+    add styling to the Login and Register components
+    link Users to Reviews 
+    add functionality to allow Reviews to be edited
+    add logic so that Users can only delete/edit Reviews they have created
+    
